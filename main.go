@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/dharan1011/go-concurrency/patterns"
+)
 
 func main() {
-	fmt.Println("Hello, World")
+	patterns.ChineseWhispers()
 }

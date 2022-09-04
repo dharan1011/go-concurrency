@@ -1,0 +1,12 @@
+Go routines are cheap & light weight thread but no OS Thread
+Go Routines cannot return value, kind of fire and forget
+Go Routines are multiplexed into a Thread & Go lang create theads as & when required
+Go Routines are derived from CSP by Hoare
+
+Blocked Go routines are moved to background util there are unblocked
+channel are used to communicate and sync go routines 
+Both sending sending & receiving operations on a channel are blocking operation
+
+Buffered channel are more like mail boxes
+
+Dont communicate by sharing memory; Share memory by communicating
